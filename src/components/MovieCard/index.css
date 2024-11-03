@@ -1,0 +1,49 @@
+.movie-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  color: white;
+  margin-bottom: 15px;
+}
+.img {
+  width: 100%;
+  border-radius: 8px;
+}
+.wrapper-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0px 10px 0px 10px;
+}
+.movie-name {
+  font-size: 18px;
+}
+.rating {
+  font-size: 16px;
+  font-weight: 530;
+  color: rgb(147, 151, 154);
+}
+.view-more {
+  background-color: rgb(50, 88, 138);
+  outline: none;
+  border-style: none;
+  border-radius: 8px;
+  height: 35px;
+  color: rgb(246, 238, 238);
+  font-size: 16px;
+  font-weight: 530;
+  width: 160px;
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .movie-card {
+    width: 250px;
+    margin: 10px;
+  }
+}

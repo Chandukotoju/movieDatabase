@@ -1,0 +1,29 @@
+.home-container {
+  background: #00050d;
+  min-height: 100vh;
+}
+.heading {
+  color: white;
+  font-size: 22px;
+}
+.movies-container {
+  padding: 15px;
+}
+.movies-list-container {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .movies-list-container {
+    justify-content: center;
+  }
+  .movies-container {
+    padding: 30px;
+  }
+  .heading {
+    padding-left: 10px;
+  }
+}

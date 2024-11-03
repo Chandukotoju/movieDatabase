@@ -1,0 +1,127 @@
+.movie-details-container {
+  background: #00050d;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+.loader-container {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.specific-container {
+  width: 100%;
+}
+.specific-img-sm {
+  width: 100%;
+}
+.content-container {
+  padding-left: 20px;
+}
+.movie-specific-name {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.tag-line {
+  color: rgb(168, 149, 149);
+  font-size: 16px;
+  font-weight: 530;
+  margin-top: 2px;
+}
+.description {
+  font-size: 17px;
+  font-weight: 530;
+  color: rgb(216, 209, 209);
+  line-height: 28px;
+  padding-right: 10px;
+}
+.language {
+  color: rgb(216, 209, 209);
+  font-size: 16px;
+  font-weight: 530;
+  margin-top: 6px;
+}
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.movie-rating {
+  color: rgb(216, 209, 209);
+  font-size: 16px;
+  margin-right: 15px;
+  font-weight: 530;
+  margin-top: 6px;
+}
+.date {
+  color: rgb(216, 209, 209);
+  font-size: 16px;
+  margin-right: 15px;
+  font-weight: 530;
+  margin-top: 6px;
+}
+.genre-wrapper {
+  display: flex;
+  align-items: center;
+  color: rgb(216, 209, 209);
+}
+.genre-name {
+  margin-right: 10px;
+  font-weight: 520;
+  margin-top: 5px;
+}
+.cast-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cast {
+  font-size: 20px;
+  color: #9e9797;
+  font-weight: 520;
+}
+.specific-img-lg {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .specific-img-sm {
+    display: none;
+  }
+  .specific-img-lg {
+    display: flex;
+    width: 30%;
+    border-radius: 15px;
+  }
+  .specific-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  .movie-specific-name {
+    font-size: 32px;
+    margin-top: 0px;
+  }
+  .tag-line {
+    font-size: 18px;
+  }
+  .description {
+    font-size: 20px;
+    padding-right: 26px;
+  }
+  .movie-rating {
+    font-size: 18px;
+  }
+  .date {
+    font-size: 18px;
+  }
+  .language {
+    font-size: 18px;
+  }
+  .genre-name {
+    font-size: 18px;
+  }
+  .cast {
+    font-size: 24px;
+  }
+}

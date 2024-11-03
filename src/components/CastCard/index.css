@@ -1,0 +1,39 @@
+.cast-list-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-left: 5px;
+}
+.cast-item {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 15px;
+}
+.cast-img {
+  width: 100%;
+  border-radius: 8px;
+}
+.cast-wrapper {
+  color: white;
+}
+.charcter-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .cast-img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .cast-item {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 10px;
+  }
+  .charcter-name {
+    font-size: 16px;
+    font-weight: 520;
+  }
+}
